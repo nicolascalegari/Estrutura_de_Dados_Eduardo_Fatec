@@ -4,7 +4,7 @@ import sys
 for linha in sys.stdin:
     # remover as quebras de linha
     frase = linha.rstrip('\r\n')
-    # break se a linha ficar vazia apos o arquivo acavar
+    # break se a linha ficar vazia apos o arquivo acabar
     if not linha:
         break
 
